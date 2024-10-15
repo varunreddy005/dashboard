@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.dashboard-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+    color: grey;
+}
+
+.city-selection {
+    display: flex;
+    justify-content: center;
+    margin: px 0;
+}
+
+.city-selection select {
+    padding: 1px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.ai-insights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.ai-insights input {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 40px;
+}
+
+.ai-insights button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: rgb(57, 57, 246);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.traffic-details {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #313131;
+}
+
+.traffic-alerts {
+    text-align: center;
+}
+
+.traffic-alerts h2 {
+    color: #333;
+}
+
+.traffic-alerts img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
